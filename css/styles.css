@@ -38,13 +38,15 @@ img {
     text-decoration: none;
 }
 /* header */
+.logo{
+    margin-right: 200px;
+}
 .nav-flex{
     display: flex;
     align-items: center;
 }
 .site-nav {
     display: flex;
-    margin-left: 93px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -52,4 +54,11 @@ img {
 }
 .site-nav .item+.item {
     margin-left: 50px;
+}
+.header-link{
+    position: relative;
+    color: #fff;
+}
+.button-header{
+    margin-left: ;
 }
