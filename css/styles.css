@@ -38,27 +38,38 @@ img {
     text-decoration: none;
 }
 /* header */
-.logo{
-    margin-right: 200px;
-}
+
 .nav-flex{
     display: flex;
     align-items: center;
 }
 .site-nav {
     display: flex;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .site-nav .item+.item {
     margin-left: 50px;
+    
 }
 .header-link{
     position: relative;
     color: #fff;
 }
 .button-header{
-    margin-left: ;
+    display: inline-block;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    justify-content: center;
+    align-items: center;
+
+    padding: 9px 15px;
+    background-color: #018ABE;
+    border-radius: 3px;
+    border: none;
 }
