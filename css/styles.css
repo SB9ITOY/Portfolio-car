@@ -73,3 +73,23 @@ img {
     border-radius: 3px;
     border: none;
 }
+/* HERO */
+.hero{
+    max-width: 1300px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    background-image: url(/image/unsplash_S-llxYh3GzI.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+}
+.decision{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
